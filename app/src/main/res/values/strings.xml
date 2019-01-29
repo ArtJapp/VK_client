@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">VK_client</string>
-    <integer name="com_vk_sdk_AppId">6622831</integer>
+    <integer name="com_vk_sdk_AppId">6839204</integer>
     <string name="text_enterBtn">Войти Вконтакте*</string>
     <string name="app_name_forUser">Fake VK</string>
     <string name="user_warning">Нажимая Войти Вконтакте вы берете на себя всю отвественность

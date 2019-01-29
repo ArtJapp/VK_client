@@ -85,7 +85,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
 
         public void bind(UserModel userModel) {
             tvUserName.setText(userModel.getFirstName() + " " + userModel.getLastName());
-            Picasso.with(itemView.getContext())
+            Picasso.get()
                     .load(userModel.getPhoto100())
                     .into(((ImageView) (ivPhoto)));
         }

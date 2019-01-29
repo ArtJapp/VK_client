@@ -81,7 +81,7 @@ public class UserPagePresenter extends PagePresenter<UserPageView, UserPageModel
     public void getPhoto(ImageView iv) {
         String photoUrl = m.getPhoto100();
         if(!TextUtils.isEmpty(photoUrl))
-            Picasso.with(iv.getContext())
+            Picasso.get()
                     .load(getModel().getPhoto100())
                     .into(iv);
     }
